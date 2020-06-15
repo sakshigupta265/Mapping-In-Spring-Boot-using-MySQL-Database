@@ -1,0 +1,27 @@
+----Create database if does not exist
+--drop database if exists test_script;
+--
+--use test_script;
+--
+----Create table "brand" if does not exist
+--drop table if exists brand(
+-- brand_id int PRIMARY KEY not null  AUTO_INCREMENT,
+-- brand_name varchar(255) not null,
+-- sector varchar(255),
+-- image varchar(255),
+-- personality varchar(255),
+-- equity varchar(255)
+-- );
+-- 
+-- --Create table "product" if does not exist
+-- drop table if exists product(
+--  product_id int null AUTO_INCREMENT,
+--  product_name varchar(255)  not null ,
+--
+--  brand_id int,
+--  CONSTRAINT product_pk PRIMARY KEY (product_id),
+--  FOREIGN KEY (brand_id) REFERENCES brand(brand_id)
+-- );
+-- 
+-- 
+-- 
